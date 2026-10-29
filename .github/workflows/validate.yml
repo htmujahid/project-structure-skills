@@ -1,0 +1,29 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: List skills
+        run: npx --yes skills add ./ --list
+      - name: Check frontmatter
+        run: |
+          status=0
+          for f in skills/*/SKILL.md; do
+            fm=$(awk 'NR==1 && /^---$/ {in_fm=1; next} in_fm && /^---$/ {exit} in_fm {print}' "$f")
+            for key in name description; do
+              if ! printf '%s\n' "$fm" | grep -Eq "^${key}:[[:space:]]*[^[:space:]]"; then
+                echo "::error file=$f::missing or empty frontmatter '$key'"
+                status=1
+              fi
+            done
+          done
+          exit $status
