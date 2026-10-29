@@ -26,6 +26,8 @@ npx skills add <owner>/project-structure-skills --list
 
 | Skill | Level | Covers |
 | ----- | ----- | ------ |
+| [react-layered-architecture](skills/react-layered-architecture) | Small to mid | Plain React SPA (no meta-framework) grouped by technical layer: pages, components, hooks, services |
+| [react-domain-architecture](skills/react-domain-architecture) | Mid to large | Plain React SPA grouped by business domain: `modules/` for domains, `core/` for shared infrastructure |
 
 ## Naming
 

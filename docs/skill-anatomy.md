@@ -12,7 +12,7 @@ skills/<name>/
 │   ├── anti-patterns.md     REQUIRED. Each anti-pattern with bad example, cost, and fix
 │   ├── growth-stages.md     REQUIRED. Prototype -> mid -> large: signals and concrete moves
 │   └── <topic>.md           Optional. Any number of extra topic files
-├── templates/               OPTIONAL. Copyable starter files or folders
+├── assets/                  OPTIONAL. Files copied into the project: starter files, feature modules, config
 ├── examples/                OPTIONAL. Small complete layouts as real file trees
 ├── scripts/                 OPTIONAL. Helpers such as a structure checker or scaffolder
 ├── evals/                   OPTIONAL. Prompts and expected outcomes
@@ -41,7 +41,7 @@ Add a folder only when the framework or language needs it. Never add one empty.
 
 | Folder | Use for | SKILL.md must say |
 | ------ | ------- | ----------------- |
-| `templates/` | Copyable starter files or folders: a canonical feature module, config files, an env example. | When to copy each one. |
+| `assets/` | Files the agent copies into the user project: a canonical feature module, config files, an env example. Put copyable files here, not in `references/`. | When to copy each one. |
 | `examples/` | Small complete layouts at one or more sizes, as real file trees with minimal placeholder contents. | When to look at them. |
 | `scripts/` | Helpers such as a structure checker or scaffolder. Must run with no setup beyond the framework's own toolchain. | The exact command to run. |
 | `evals/` | Prompts and expected outcomes that test the skill triggers and produces the right layout. | That they exist, and how to run them if runnable. |

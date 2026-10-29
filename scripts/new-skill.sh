@@ -36,7 +36,7 @@ Next steps:
 Required (already created): SKILL.md, references/full-tree.md,
   references/anti-patterns.md, references/growth-stages.md.
 Optional, add only when needed and never empty (see docs/skill-anatomy.md):
-  templates/   copyable starter files
+  assets/      files to copy into the project
   examples/    small complete layouts
   scripts/     helpers runnable with the framework's own toolchain
   evals/       prompts and expected outcomes

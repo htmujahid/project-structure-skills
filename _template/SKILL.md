@@ -13,7 +13,7 @@ HOW TO FILL THIS TEMPLATE
    agent creates a file ("Put X in Y"), not descriptive.
 4. Keep this file under 150 lines. Move full trees and long lists to
    references/. Link each reference with a one-line note on when to read it.
-   Optional folders (templates/, examples/, scripts/, evals/) must be
+   Optional folders (assets/, examples/, scripts/, evals/) must be
    mentioned in this file or removed. See docs/skill-anatomy.md.
 5. Delete this comment block when done.
 Naming: `<language>-project-structure` or `<framework>-architecture`.
