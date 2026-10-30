@@ -30,6 +30,8 @@ npx skills add <owner>/project-structure-skills --list
 | [react-domain-architecture](skills/react-domain-architecture) | Mid to large | Plain React SPA grouped by business domain: `modules/` for domains, `core/` for shared infrastructure |
 | [nextjs-layered-architecture](skills/nextjs-layered-architecture) | Small to mid | Full-stack Next.js App Router grouped by technical layer: components, actions, services, queries, db |
 | [nextjs-domain-architecture](skills/nextjs-domain-architecture) | Mid to large | Full-stack Next.js App Router grouped by domain: route groups with `_components`, `_actions`, `_queries`, `_services`, with shared `components/`, `lib/`, `db/` outside `app/` |
+| [tanstack-router-architecture](skills/tanstack-router-architecture) | Small to large | Frontend-only TanStack Router app (Vite) with Query, Form, Table, DB, Devtools: routes, components, `lib/queries`, `lib/mutations`, `lib/collections` |
+| [tanstack-start-architecture](skills/tanstack-start-architecture) | Small to large | Full-stack TanStack Start app: same client layers plus `server/` (functions, middleware, services, db) |
 
 ## Naming
 
