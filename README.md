@@ -28,6 +28,8 @@ npx skills add <owner>/project-structure-skills --list
 | ----- | ----- | ------ |
 | [react-layered-architecture](skills/react-layered-architecture) | Small to mid | Plain React SPA (no meta-framework) grouped by technical layer: pages, components, hooks, services |
 | [react-domain-architecture](skills/react-domain-architecture) | Mid to large | Plain React SPA grouped by business domain: `modules/` for domains, `core/` for shared infrastructure |
+| [nextjs-layered-architecture](skills/nextjs-layered-architecture) | Small to mid | Full-stack Next.js App Router grouped by technical layer: components, actions, services, queries, db |
+| [nextjs-domain-architecture](skills/nextjs-domain-architecture) | Mid to large | Full-stack Next.js App Router grouped by domain: route groups with `_components`, `_actions`, `_queries`, `_services`, with shared `components/`, `lib/`, `db/` outside `app/` |
 
 ## Naming
 
