@@ -32,6 +32,7 @@ npx skills add <owner>/project-structure-skills --list
 | [nextjs-domain-architecture](skills/nextjs-domain-architecture) | Mid to large | Full-stack Next.js App Router grouped by domain: route groups with `_components`, `_actions`, `_queries`, `_services`, with shared `components/`, `lib/`, `db/` outside `app/` |
 | [tanstack-router-architecture](skills/tanstack-router-architecture) | Small to large | Frontend-only TanStack Router app (Vite) with Query, Form, Table, DB, Devtools: routes, components, `lib/queries`, `lib/mutations`, `lib/collections` |
 | [tanstack-start-architecture](skills/tanstack-start-architecture) | Small to large | Full-stack TanStack Start app: same client layers plus `server/` (functions, middleware, services, db) |
+| [nestjs-architecture](skills/nestjs-architecture) | Small to large | NestJS backend organized as feature modules: `modules/` for features, `infra/` for technical capabilities, `common/` for pipes, guards, filters, interceptors, middleware; plus GraphQL, CQRS, queues, websockets |
 
 ## Naming
 
